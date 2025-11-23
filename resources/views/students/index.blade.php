@@ -47,7 +47,7 @@
             @endforeach
         </tbody>
     </table>
-    <a class="btn btn-info" href="{#}">Back to product list</a>
+    <a class="btn btn-info" href="{{ route('bookissue.index')}}">Back to BookIssue </a>
 </div>
 
 @endsection
