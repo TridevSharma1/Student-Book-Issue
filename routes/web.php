@@ -12,5 +12,5 @@ Route::get('/students/create', [StudentController::class, 'studentcreateform'])-
 Route::post('/students/store', [StudentController::class, 'studentstore'])->name('student.store');
 Route::get('/bookissue/create', [BookIssueController::class, 'create'])->name('bookissue.create');
 Route::post('/bookissue/store', [BookIssueController::class, 'store'])->name('bookissue.store');
-Route::get('/book', [BookIssueController::class, 'index'])->name('bookissue.index');
+Route::get('/bookissue', [BookIssueController::class, 'index'])->name('bookissue.index');
 });
