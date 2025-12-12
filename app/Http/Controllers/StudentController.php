@@ -14,7 +14,7 @@ class StudentController extends Controller
         $students = Student::latest()->get();
         return view('students.index', compact('students'));
     }
-    // students.index = stodent->Folder name and index->File name
+    // students.index = student->Folder name and index->File name
     // Show form
     public function studentcreateform()
     {
